@@ -1,7 +1,8 @@
-import expess from 'express';
+import express from 'express';
 import cors from 'cors';
-import dotenv from 'dotenv';    
-const app = expess();
+import dotenv from 'dotenv';      
+dotenv.config();
+const app = express();
 
 app.use(cors());
 
